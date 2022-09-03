@@ -1,0 +1,29 @@
+{
+  "name": "agorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "./node_modules/.bin/babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chkemin/agorithm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chkemin/agorithm/issues"
+  },
+  "homepage": "https://github.com/chkemin/agorithm#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/plugin-transform-arrow-functions": "^7.18.6",
+    "@babel/preset-env": "^7.18.10"
+  }
+}
